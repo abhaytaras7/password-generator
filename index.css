@@ -9,6 +9,7 @@ button {
     padding: 10px;
     border-radius: 5px;
     font-weight: bold;
+    cursor: pointer;
 }
 h1 {
     font-weight: bold;
