@@ -5,6 +5,6 @@
  
 
 <p align = center>
-<img src="https://github.com/itsOmSarraf/password-generator/blob/main/password-generator.gif/assets"style=width:800px;"/>
+<img src="https://github.com/abhaytaras7/password-generator/blob/main/assets/password-generator.gif"style=width:800px;"/>
 
 </p>
