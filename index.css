@@ -2,6 +2,9 @@ body {
     margin: 0;
     font-weight: bold;
     color: black;
+    background-color: 273549;
+    align-items: center;
+    font-family: Karla,Arial;
 }
 button {
     background-color: 10B981;
@@ -11,13 +14,34 @@ button {
     border-radius: 5px;
     font-weight: bold;
     cursor: pointer;
+    background-color: 10B981;
+    width: 250px;
+    font-weight: 500;
 }
 h1 {
     font-weight: bold;
+    margin: 0;
+    font-weight: 800px;
+}
+.heading {
+    color: white;
+}
+.title {
+    color: 10B981;
 }
 .box {
-    background-color: grey;
+    background-color:2F3E53;
     width: 300px;
-    height: 40px;
+    height: 20px;
     border-radius: 12px;
+    color: 10B981;
+    padding: 10px;
+    margin-top: 10px;
+}
+.box {
+    text-align: center;
+}
+.container{
+    margin-left: 30px;
+    margin-top: 40px;
 }
