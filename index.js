@@ -6,6 +6,7 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O",
 let passEl1=document.getElementById("pass1")
 let passEl2=document.getElementById("pass2")
 let length=document.getElementById("length-el")
+
 function getRandomChar(){
     let index= Math.floor( Math.random()*characters.length )
     return characters[index]
