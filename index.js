@@ -31,6 +31,7 @@ function buttonClick(){
     cpBtn2.addEventListener("click",function(){
          console.log(p2)
     })
+}
 
 function buttonClick() {
     let p1 = generateRandomPassword(length.value)
