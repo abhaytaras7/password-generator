@@ -1,5 +1,5 @@
 
-@media only screen and (max-width: 790px) {  
+@media (max-width: 790px) {  
 .main-container{
     margin: auto;
     padding: 10px;
@@ -89,10 +89,14 @@ h1 {
     flex-direction: row;
     align-items: center;
     font-size: 10px;
-
+}
+.credits {
+    text-align: center;
+    font-size: 50px;
+    color: white;
 }
 }
-@media only screen and (min-width: 790px) {  
+@media (min-width: 790px) {  
 .main-container{
     margin: auto;
     padding: 10px;
@@ -182,5 +186,10 @@ h1 {
     align-items: center;
     font-size: 10px;
 
+}
+.credits {
+    text-align: center;
+    font-size: 20px;
+    color: white;
 }
 }
