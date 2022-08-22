@@ -1,10 +1,16 @@
-body {
+/*@media only screen and (min-width: 1240px) { 
+}
+*/
+
+@media only screen and (min-width: 360px) {  
+    body {
     margin: 0;
     font-weight: bold;
     color: black;
     background-color: 273549;
     align-items: center;
     font-family: Karla,Arial;
+    font-size: 20px;
 }
 button {
     border:none;
@@ -24,9 +30,11 @@ h1 {
 }
 .heading {
     color: white;
+    font-size: 90px;
 }
 .title {
     color: 10B981;
+    font-size: 50px;
 }
 .box {
     background-color:2F3E53;
@@ -54,16 +62,29 @@ h1 {
     background-color: 10B981;
     width: 40px;
     height: 40px;
-    margin-left: 3px;
+    margin-left: 13px;
     padding: 0%;
     text-align: center;
     font-weight: 500;
     margin-bottom: 10px;
     background-color: white;
+    font-size: 32px;
 }
 .length {
     color: rgb(181, 181, 181);
     margin: 0;
-    font-size: larger;
+    font-size: 50px;
     margin-bottom: 9px;
+}
+.cp {
+    background-color: white;
+    color: 10B981;
+    margin-top: 10px;
+    width: 190px;
+}
+.cp-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 }

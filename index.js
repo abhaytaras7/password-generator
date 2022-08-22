@@ -6,6 +6,11 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O",
 let passEl1=document.getElementById("pass1")
 let passEl2=document.getElementById("pass2")
 let length=document.getElementById("length-el")
+let cpBtn1=document.getElementById("cp1")
+let cpBtn2=document.getElementById("cp2")
+cpBtn1.addEventListener("click",function(){
+    console.log(p1)
+})
 
 function getRandomChar(){
     let index= Math.floor( Math.random()*characters.length )
@@ -19,6 +24,8 @@ function generateRandomPassword(len) {
     return randomPassword
 }
 function buttonClick(){
-    passEl1.textContent = generateRandomPassword(length.value)
-    passEl2.textContent = generateRandomPassword(length.value)
+    let p1=generateRandomPassword(length.value)
+    let p2=generateRandomPassword(length.value)
+    passEl1.textContent = p1
+    passEl2.textContent = p2
 }
