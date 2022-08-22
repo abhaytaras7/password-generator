@@ -81,9 +81,9 @@ h1 {
     margin-bottom: 9px;
 }
 .cp {
-    background-color: white;
+    background-color: rgb(212, 212, 212);
     color: 10B981;
-    margin-top: 10px;
+    margin-top: 20px;
     width: 190px;
 }
 .cp-box{
