@@ -20,7 +20,6 @@ function generateRandomPassword(len) {
     }
     return randomPassword
 }
-<<<<<<< HEAD
 function buttonClick(){
     let p1=generateRandomPassword(length.value)
     let p2=generateRandomPassword(length.value)
@@ -32,18 +31,22 @@ function buttonClick(){
     cpBtn2.addEventListener("click",function(){
          console.log(p2)
     })
-=======
+
 function buttonClick() {
     let p1 = generateRandomPassword(length.value)
     let p2 = generateRandomPassword(length.value)
     passEl1.innerHTML = p1
     passEl2.innerHTML = p2
 
->>>>>>> 48d58872be02e3c0cf888e0e561affdc7951f840
 }
 // function to copy password to clipboard from button click
-function copyToClipboard() {
+function copyToClipboard1() {
     console.log(passEl1.innerHTML)
     navigator.clipboard.writeText(passEl1.innerHTML)
     alert('Copied: ' + passEl1.innerHTML)
+}
+function copyToClipboard2() {
+    console.log(passEl2.innerHTML)
+    navigator.clipboard.writeText(passEl2.innerHTML)
+    alert('Copied: ' + passEl2.innerHTML)
 }
