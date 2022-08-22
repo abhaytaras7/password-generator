@@ -1,15 +1,17 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-        <link rel="stylesheet" href="index.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;600;800&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <div class="main-container">
-            <div class="container">
-                <h1 class="heading">Generate a </h1>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="container">
+            <h1 class="heading">Generate a </h1>
             <h1 class="title">random password</h1>
             <p style="color: red;
             font-weight: 500;
@@ -28,7 +30,8 @@
             align-self: flex-start;">
                 <div class="cp-box">
                     <div class="box" id="pass1"></div>
-                    <button class="cp" id="cp1">Copy to clipboard</button>
+                    // Add the onclick command on the cp2. Just need to create a same function for the password 2.
+                    <button class="cp" id="cp1" onclick="copyToClipboard()">Copy to clipboard</button>
                 </div>
                 <div class="cp-box">
                     <div class="box" id="pass2"></div>
@@ -37,7 +40,8 @@
             </div>
             <script src="index.js"></script>
             <script src="clipboard.js-master/dist/clipboard.min.js"></script>
-            </div>
         </div>
-    </body>
+    </div>
+</body>
+
 </html>
