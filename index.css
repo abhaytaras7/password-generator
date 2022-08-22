@@ -1,6 +1,98 @@
-@media only screen and (min-width: 1240px) { 
-}
 
+@media only screen and (min-width: 360px) {  
+    body {
+    margin: 0;
+    font-weight: bold;
+    color: black;
+    background-color: 273549;
+    align-items: center;
+    font-family: Karla,Arial;
+    font-size: 20px;
+}
+button {
+    border:none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: 10B981;
+    width: 250px;
+    font-weight: 500;
+    font-size: 30px;
+}
+h1 {
+    font-weight: bold;
+    margin: 0;
+    font-weight: 800px;
+}
+.heading {
+    color: white;
+    font-size: 90px;
+}
+.title {
+    color: 10B981;
+    font-size: 50px;
+}
+.box {
+    background-color:2F3E53;
+    width: 500px;
+    height: 50px;
+    border-radius: 12px;
+    color: 10B981;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 40px;
+}
+.box {
+    text-align: center;
+}
+.container{
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.input{
+    border:none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: 10B981;
+    width: 60px;
+    height: 50px;
+    margin-left: 13px;
+    padding: 0%;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 10px;
+    background-color: white;
+    font-size: 32px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 15px;
+}
+.length {
+    color: rgb(181, 181, 181);
+    margin: 0;
+    font-size: 50px;
+    margin-bottom: 9px;
+}
+.cp {
+    background-color: rgb(255, 255, 255);
+    color: 10B981;
+    margin-top: 20px;
+    width: 190px;
+    margin-left: 10px;
+}
+.cp-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 10px;
+
+}
+}
 
 @media only screen and (min-width: 360px) {  
     body {
@@ -95,8 +187,3 @@ h1 {
 
 }
 }
-/*
-#pass1{
-    margin-right: 20px;
-}
-*/
