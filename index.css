@@ -1,6 +1,11 @@
 
 @media only screen and (max-width: 790px) {  
-    body {
+.main-container{
+    margin: auto;
+    padding: 10px;
+}
+body {
+    display: flex;
     margin: 0;
     font-weight: bold;
     color: black;
@@ -55,21 +60,20 @@ h1 {
 .input{
     border:none;
     border-radius: 5px;
-    font-weight: bold;
     cursor: pointer;
     background-color: 10B981;
-    width: 80px;
+    width: 100px;
     height: 50px;
     margin-left: 13px;
     margin-bottom: 10px;
     background-color: white;
-    font-size: 32px;
+    font-size: 30px;
     padding:  3px 15px;
 }
 .length {
     color: rgb(181, 181, 181);
     margin: 0;
-    font-size: 50px;
+    font-size: 30px;
     margin-bottom: 9px;
 }
 .cp {
@@ -87,8 +91,13 @@ h1 {
 
 }
 }
-@media only screen and (min-width: 900px) {  
-    body {
+@media only screen and (min-width: 790px) {  
+.main-container{
+    margin: auto;
+    padding: 10px;
+}
+body {
+    display: flex;
     margin: 0;
     font-weight: bold;
     color: black;
@@ -143,21 +152,20 @@ h1 {
 .input{
     border:none;
     border-radius: 5px;
-    font-weight: bold;
     cursor: pointer;
     background-color: 10B981;
-    width: 80px;
+    width: 100px;
     height: 50px;
     margin-left: 13px;
     margin-bottom: 10px;
     background-color: white;
-    font-size: 32px;
+    font-size: 30px;
     padding:  3px 15px;
 }
 .length {
     color: rgb(181, 181, 181);
     margin: 0;
-    font-size: 50px;
+    font-size: 30px;
     margin-bottom: 9px;
 }
 .cp {
