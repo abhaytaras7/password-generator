@@ -1,5 +1,5 @@
 
-@media only screen and (min-width: 360px) {  
+@media only screen and (max-width: 790px) {  
     body {
     margin: 0;
     font-weight: bold;
@@ -54,23 +54,17 @@ h1 {
 }
 .input{
     border:none;
-    padding: 10px;
     border-radius: 5px;
     font-weight: bold;
     cursor: pointer;
     background-color: 10B981;
-    width: 60px;
+    width: 80px;
     height: 50px;
     margin-left: 13px;
-    padding: 0%;
-    text-align: center;
-    font-weight: 500;
     margin-bottom: 10px;
     background-color: white;
     font-size: 32px;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    padding-left: 15px;
+    padding:  3px 15px;
 }
 .length {
     color: rgb(181, 181, 181);
