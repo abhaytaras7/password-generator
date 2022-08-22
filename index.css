@@ -85,12 +85,14 @@ h1 {
     color: 10B981;
     margin-top: 20px;
     width: 190px;
+    margin-left: 10px;
 }
 .cp-box{
     display: flex;
     flex-direction: row;
     align-items: center;
     font-size: 10px;
+
 }
 }
 /*
