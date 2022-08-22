@@ -12,7 +12,15 @@
         <h1 class="title">random password</h1>
         <p style="color: D5D4D8;
         font-weight: 500;">Never use an insecure password again</p>
-        <button onclick="buttonClick()">Generate password (8 char)</button>
+        <div style="display: flex;
+        flex-direction: column;">
+            <div style="display: flex;
+            align-items: center;">
+                <p class="length">Enter password length :</p>
+                <input class="input" id="length-el" defaultValue=99 value=8 placeholder="8">
+            </div>
+            <button onclick="buttonClick()">Generate password</button>
+        </div>
         <div style="display: flex;">
             <div class="box" id="pass1" style="margin-right: 20px;"></div>
             <div class="box" id="pass2"></div>

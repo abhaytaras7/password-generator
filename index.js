@@ -4,32 +4,20 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O",
 "~","`","!","@","#","$","%","^","&","*","(",")","_","-","+","=","{","[","}","]",",","|",":",";","<",">",".","?",
 "/"];
 let passEl1=document.getElementById("pass1")
-
-function getRandomChar(){
-    let index= Math.floor( Math.random()*characters.length )
-    return characters[index]
-}
-function generateRandomPassword() {
-    let randomPassword = ""
-    for (let i = 0; i<8; i++) {
-        randomPassword += getRandomChar()         
-    }
-    return randomPassword
-}
-
 let passEl2=document.getElementById("pass2")
+let length=document.getElementById("length-el")
 function getRandomChar(){
     let index= Math.floor( Math.random()*characters.length )
     return characters[index]
 }
-function generateRandomPassword() {
+function generateRandomPassword(len) {
     let randomPassword = ""
-    for (let i = 0; i<8; i++) {
+    for (let i = 0; i<len; i++) {
         randomPassword += getRandomChar()         
     }
     return randomPassword
 }
 function buttonClick(){
-    passEl1.textContent = generateRandomPassword()
-    passEl2.textContent = generateRandomPassword()
+    passEl1.textContent = generateRandomPassword(length.value)
+    passEl2.textContent = generateRandomPassword(length.value)
 }
