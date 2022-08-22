@@ -26,7 +26,7 @@ function buttonClick(){
     passEl1.textContent = p1
     passEl2.textContent = p2
     cpBtn1.addEventListener("click",function(){
-        console.log(p1)
+        console.log(p1)        
 })
     cpBtn2.addEventListener("click",function(){
          console.log(p2)
