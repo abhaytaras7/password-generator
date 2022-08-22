@@ -1,6 +1,6 @@
-/*@media only screen and (min-width: 1240px) { 
+@media only screen and (min-width: 1240px) { 
 }
-*/
+
 
 @media only screen and (min-width: 360px) {  
     body {
@@ -69,6 +69,8 @@ h1 {
     margin-bottom: 10px;
     background-color: white;
     font-size: 32px;
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
 .length {
     color: rgb(181, 181, 181);
